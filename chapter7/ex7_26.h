@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
-using std::istream, std::ostream, std::string;
+using std::istream;
+using std::ostream;
+using std::string;
 class Sales_data
 {
     friend istream &read(istream &is, Sales_data &item);
